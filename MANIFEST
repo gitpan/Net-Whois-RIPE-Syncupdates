@@ -1,4 +1,5 @@
 MANIFEST
+README
 Makefile.PL
 Syncupdates.pm
 Syncupdates/Message.pm

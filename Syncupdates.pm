@@ -18,7 +18,7 @@
 # OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 #
-# $Id: Syncupdates.pm,v 1.15 2003/08/01 13:46:11 peter Exp $
+# $Id: Syncupdates.pm,v 1.16 2003/08/01 14:50:35 peter Exp $
 #
 
 =head1 NAME
@@ -87,7 +87,7 @@ use Params::Validate qw(:all);
 
 use Data::Dumper;
 
-our $VERSION = '1.0';
+our $VERSION = '1.1';
 
 Params::Validate::validation_options(
     on_fail => sub{die"@_\n"},
@@ -296,7 +296,7 @@ C<Net::Whois::RIPE::Syncupdates::Response>
 
 =head1 VERSION
 
-$Id: Syncupdates.pm,v 1.15 2003/08/01 13:46:11 peter Exp $
+$Id: Syncupdates.pm,v 1.16 2003/08/01 14:50:35 peter Exp $
 
 =head1 BUGS
 
